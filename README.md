@@ -20,11 +20,7 @@ LLM-пайплайн: по списку позиций и PDF техдокуме
 
 Статический UI на synthetic-данных — без Docker, LLM и ключей:
 
-```bash
-cd apps/demo-app && python3 -m http.server 4173
-```
-
-Открыть [http://localhost:4173](http://localhost:4173).
+**[Открыть demo](https://fedyabadyilo.github.io/AttributeExtraction/)**
 
 Seed: `[research/datasets/demo](research/datasets/demo)` (класс `demo-motor`, 4 позиции, в т.ч. multi-PDF и скан).
 
