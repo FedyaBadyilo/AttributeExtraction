@@ -14,7 +14,7 @@ LLM-пайплайн: по списку позиций и PDF техдокуме
 | Net Effect            | **0,37**  | ≥ 0,2 |
 
 
-Сюжет экспериментов, разбивка по классам изделий и журналы решений — в `[research/steps/README.md](research/steps/README.md)`.
+Сюжет экспериментов, разбивка по классам изделий и журналы решений — в [research/steps/README.md](research/steps/README.md).
 
 ## Быстрый просмотр
 
@@ -22,7 +22,7 @@ LLM-пайплайн: по списку позиций и PDF техдокуме
 
 **[Открыть demo](https://fedyabadyilo.github.io/AttributeExtraction/)**
 
-Seed: `[research/datasets/demo](research/datasets/demo)` (класс `demo-motor`, 4 позиции, в т.ч. multi-PDF и скан).
+Seed: [research/datasets/demo](research/datasets/demo) (класс `demo-motor`, 4 позиции, в т.ч. multi-PDF и скан).
 
 ## Подход
 
@@ -34,19 +34,19 @@ ocr → markdown → chunking → vectorizing → retrieval
   → context_grouping → context_rebuild → extraction
 ```
 
-Ключевые решения зафиксированы в журналах `history/H00x` (retrieval → rerank → extraction). Полный список шагов и метрики — в `[research/steps/README.md](research/steps/README.md)`.
+Ключевые решения зафиксированы в журналах `history/H00x` (retrieval → rerank → extraction). Полный список шагов и метрики — в [research/steps/README.md](research/steps/README.md).
 
 ## Навигация
 
 
 | Что смотреть                            | Куда                                                   |
 | --------------------------------------- | ------------------------------------------------------ |
-| Сюжет экспериментов и метрики           | `[research/steps/README.md](research/steps/README.md)` |
+| Сюжет экспериментов и метрики           | [research/steps/README.md](research/steps/README.md) |
 | Журналы retrieval / rerank / extraction | `research/steps/*/eval/experiments/history/`           |
-| EDA (состав данных, атрибуты, единицы)  | `[research/lab/](research/lab/)`                       |
-| Synthetic demo-пакет                    | `[research/datasets/demo](research/datasets/demo)`     |
-| UI-mock (без бэкенда)                   | `[apps/demo-app](apps/demo-app)`                       |
-| Рабочее MVP (API + UI + пайплайн)       | `[apps/attribute_extractor](apps/attribute_extractor)` |
+| EDA (состав данных, атрибуты, единицы)  | [research/lab/](research/lab/)                       |
+| Synthetic demo-пакет                    | [research/datasets/demo](research/datasets/demo)     |
+| UI-mock (без бэкенда)                   | [apps/demo-app](apps/demo-app)                       |
+| Рабочее MVP (API + UI + пайплайн)       | [apps/attribute_extractor](apps/attribute_extractor) |
 
 
 
@@ -77,7 +77,7 @@ cd apps/attribute_extractor && docker compose up --build
 - UI: [http://localhost:5173](http://localhost:5173)
 - API / Swagger: [http://localhost:8000/docs](http://localhost:8000/docs)
 
-По умолчанию образ поднимает API/UI. Для живого `/process` (OCR → … → extraction) нужна пересборка с `INSTALL_PIPELINE=1` и ключи LLM в `.env` (см. `[.env.example](.env.example)` и `[apps/attribute_extractor/README.md](apps/attribute_extractor/README.md)`).
+По умолчанию образ поднимает API/UI. Для живого `/process` (OCR → … → extraction) нужна пересборка с `INSTALL_PIPELINE=1` и ключи LLM в `.env` (см. [.env.example](.env.example) и [apps/attribute_extractor/README.md](apps/attribute_extractor/README.md)).
 
 Research-шаги локально: `pip install -r requirements.txt`, `.env.example` → `.env`, параметры в `config.yaml`; детали — в README конкретного шага.
 
