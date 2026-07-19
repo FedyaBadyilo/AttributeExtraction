@@ -28,10 +28,18 @@ Seed: [research/datasets/demo](research/datasets/demo) (класс `demo-motor`,
 
 Документ-центричный пайплайн с поэтапной оценкой гипотез:
 
-```text
-ocr → markdown → chunking → vectorizing → retrieval
-  → merge → attribute_grouping → reranking
-  → context_grouping → context_rebuild → extraction
+```mermaid
+flowchart LR
+  subgraph D[Документ]
+    ocr --> markdown --> chunking --> vectorizing
+  end
+  subgraph R[Поиск]
+    retrieval --> merge --> attribute_grouping --> reranking
+  end
+  subgraph E[Извлечение]
+    context_grouping --> context_rebuild --> extraction
+  end
+  D --> R --> E
 ```
 
 Ключевые решения зафиксированы в журналах `history/H00x` (retrieval → rerank → extraction). Полный список шагов и метрики — в [research/steps/README.md](research/steps/README.md).
