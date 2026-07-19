@@ -1,0 +1,70 @@
+# Environment
+.env
+.env.local
+venv/
+env/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.ruff_cache/
+
+# IDE
+.vscode/
+.cursor/*
+!.cursor/rules/
+!.cursor/rules/**
+!.cursor/skills/
+!.cursor/skills/**
+.cursorignore
+.codex/*
+!.codex/skills
+.claude/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Local config overrides
+src/config/local.yaml
+
+# Logs
+*.log
+logs/
+
+# Step input/output dirs are tracked (.gitkeep); generated contents are ignored
+research/steps/*/input/*
+!research/steps/*/input/.gitkeep
+research/steps/*/output/*
+!research/steps/*/output/.gitkeep
+research/benchmarks/*/output/*
+!research/benchmarks/*/output/.gitkeep
+research/benchmarks/*/.output.staging-*/
+research/benchmarks/*/.output.previous-*/
+research/lab/output/
+
+# local
+data.local/
+
+# RAG labeling app caches (labels diskcache + on-demand pipeline artifacts)
+apps/rag_labeling/.cache/
+
+# Attribute extractor runtime (SQLite + task workspaces)
+apps/attribute_extractor/backend/.cache/
+apps/attribute_extractor/frontend/node_modules/
+apps/attribute_extractor/frontend/dist/
+apps/attribute_extractor/.venv/
+
+mlruns/
+
+apps/attribute_extractor/frontend/tsconfig.tsbuildinfo

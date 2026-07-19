@@ -1,0 +1,99 @@
+MODELS:
+  base_llm:
+    model: Qwen/Qwen3.6-35B-A3B-FP8
+    temperature: 0.0
+    max_tokens: 16000
+    timeout: 1200
+    max_retries: 2
+    seed: 42
+  grouping_llm:
+    model: Qwen/Qwen3.6-27B-FP8
+    temperature: 0.0
+    timeout: 1200
+    max_retries: 2
+    max_tokens: 16000
+    seed: 42
+  rerank_llm:
+    model: Qwen/Qwen3.6-35B-A3B-FP8
+    temperature: 0.0
+    max_tokens: 8000
+    timeout: 1200
+    max_retries: 2
+    seed: 42
+    extra_body:
+      chat_template_kwargs:
+        enable_thinking: false
+  # Lab-only VLM document-parsing bench; do not reuse for extraction/rerank.
+  vlm_bench_35b:
+    model: Qwen/Qwen3.6-35B-A3B-FP8
+    temperature: 0.7
+    max_tokens: 16000
+    timeout: 1200
+    max_retries: 2
+    seed: 42
+    extra_body:
+      chat_template_kwargs:
+        enable_thinking: false
+
+EMBEDDINGS:
+  base_embedder:
+    model: deepvk/USER-bge-m3
+    timeout: 1200
+    max_retries: 3
+    check_embedding_ctx_length: false
+
+ATTRIBUTE_GROUPING:
+  min_group_size: 2
+  max_group_size: 5
+  tight_sim_threshold: 0.9
+  max_partition_size: 30
+  llm_model_key: grouping_llm
+  embedder_model_key: base_embedder
+  max_concurrent_requests: 5
+
+OCR:
+  # Enable GPU for dedoc's PyTorch (column/orientation) and XGBoost (structure classifiers).
+  # Requires a visible CUDA device (torch.cuda.is_available()) and nvidia-smi for XGBoost.
+  # Falls back to CPU when false.
+  on_gpu: false
+
+CHUNKING:
+  max_chunk_tokens: 512
+  min_chunk_tokens: 128
+  embedder_model_key: base_embedder
+
+QDRANT_TIMEOUT: 1200
+QDRANT_COLLECTION_TEMPLATE: "AttributeExtraction-{eos_id}"
+QDRANT_PREFER_GRPC: true
+
+VECTORIZING:
+  embedder_model_key: base_embedder
+
+RETRIEVAL:
+  embedder_model_key: base_embedder
+  embed_batch_size: 64
+  prefetch_limit_dense: 20
+  prefetch_limit_bm25: 20
+  limit: 10
+
+MERGE:
+  expansion_char_budget_structure: 3000
+  expansion_char_budget_table: 8000
+
+RERANKING:
+  rerank:
+    llm_model_key: rerank_llm
+    top_k: 5
+    fallback_top_k: 10
+    max_concurrent_requests: 5
+  grouping:
+    merge_chunk_jaccard_min: 0.5
+    max_group_size: 5
+
+EXTRACTION:
+  llm_model_key: base_llm
+  confidence:
+    threshold_value: 1.0
+    threshold_null: 0.5
+    max_second_score: 0.5
+  max_concurrent_requests: 5

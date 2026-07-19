@@ -1,0 +1,20 @@
+# Minimal CI: rebuild MVP images the same way as local `docker compose build`.
+# No live /process or LLM checks here.
+
+stages:
+  - build
+
+build-images:
+  stage: build
+  image: docker:24
+  services:
+    - docker:24-dind
+  variables:
+    DOCKER_TLS_CERTDIR: "/certs"
+    INSTALL_PIPELINE: "0"
+  script:
+    - cd apps/attribute_extractor
+    - docker compose build
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH

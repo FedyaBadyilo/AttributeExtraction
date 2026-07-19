@@ -1,0 +1,40 @@
+{"gid": "demo-item-001", "attr_id": "attr_name", "attr_name": "Наименование", "value": "Электродвигатель асинхронный", "unit": null}
+{"gid": "demo-item-001", "attr_id": "attr_power", "attr_name": "Номинальная мощность", "value": 5.5, "unit": "кВт"}
+{"gid": "demo-item-001", "attr_id": "attr_voltage", "attr_name": "Номинальное напряжение", "value": 380, "unit": "В"}
+{"gid": "demo-item-001", "attr_id": "attr_current", "attr_name": "Номинальный ток", "value": 11.2, "unit": "А"}
+{"gid": "demo-item-001", "attr_id": "attr_speed", "attr_name": "Частота вращения", "value": 1450, "unit": "об/мин"}
+{"gid": "demo-item-001", "attr_id": "attr_efficiency", "attr_name": "КПД", "value": 89.5, "unit": "%"}
+{"gid": "demo-item-001", "attr_id": "attr_ip", "attr_name": "Степень защиты", "value": "IP55", "unit": null}
+{"gid": "demo-item-001", "attr_id": "attr_mounting", "attr_name": "Способ монтажа", "value": "на лапах", "unit": null}
+{"gid": "demo-item-001", "attr_id": "attr_insulation", "attr_name": "Класс изоляции", "value": "F", "unit": null}
+{"gid": "demo-item-001", "attr_id": "attr_weight", "attr_name": "Масса", "value": 48, "unit": "кг"}
+{"gid": "demo-item-002", "attr_id": "attr_name", "attr_name": "Наименование", "value": "Электродвигатель асинхронный", "unit": null}
+{"gid": "demo-item-002", "attr_id": "attr_power", "attr_name": "Номинальная мощность", "value": 11.0, "unit": "кВт"}
+{"gid": "demo-item-002", "attr_id": "attr_voltage", "attr_name": "Номинальное напряжение", "value": 380, "unit": "В"}
+{"gid": "demo-item-002", "attr_id": "attr_current", "attr_name": "Номинальный ток", "value": 21.5, "unit": "А"}
+{"gid": "demo-item-002", "attr_id": "attr_speed", "attr_name": "Частота вращения", "value": 2900, "unit": "об/мин"}
+{"gid": "demo-item-002", "attr_id": "attr_efficiency", "attr_name": "КПД", "value": 91.2, "unit": "%"}
+{"gid": "demo-item-002", "attr_id": "attr_ip", "attr_name": "Степень защиты", "value": "IP65", "unit": null}
+{"gid": "demo-item-002", "attr_id": "attr_mounting", "attr_name": "Способ монтажа", "value": "комбинированный", "unit": null}
+{"gid": "demo-item-002", "attr_id": "attr_insulation", "attr_name": "Класс изоляции", "value": "F", "unit": null}
+{"gid": "demo-item-002", "attr_id": "attr_weight", "attr_name": "Масса", "value": 72, "unit": "кг"}
+{"gid": "demo-item-003", "attr_id": "attr_name", "attr_name": "Наименование", "value": "Электродвигатель асинхронный однофазный", "unit": null}
+{"gid": "demo-item-003", "attr_id": "attr_power", "attr_name": "Номинальная мощность", "value": 7.5, "unit": "кВт"}
+{"gid": "demo-item-003", "attr_id": "attr_voltage", "attr_name": "Номинальное напряжение", "value": 220, "unit": "В"}
+{"gid": "demo-item-003", "attr_id": "attr_current", "attr_name": "Номинальный ток", "value": 14.8, "unit": "А"}
+{"gid": "demo-item-003", "attr_id": "attr_speed", "attr_name": "Частота вращения", "value": 1450, "unit": "об/мин"}
+{"gid": "demo-item-003", "attr_id": "attr_efficiency", "attr_name": "КПД", "value": 89.8, "unit": "%"}
+{"gid": "demo-item-003", "attr_id": "attr_ip", "attr_name": "Степень защиты", "value": "IP54", "unit": null}
+{"gid": "demo-item-003", "attr_id": "attr_mounting", "attr_name": "Способ монтажа", "value": "на лапах", "unit": null}
+{"gid": "demo-item-003", "attr_id": "attr_insulation", "attr_name": "Класс изоляции", "value": "H", "unit": null}
+{"gid": "demo-item-003", "attr_id": "attr_weight", "attr_name": "Масса", "value": 56, "unit": "кг"}
+{"gid": "demo-item-004", "attr_id": "attr_name", "attr_name": "Наименование", "value": "Электродвигатель асинхронный", "unit": null}
+{"gid": "demo-item-004", "attr_id": "attr_power", "attr_name": "Номинальная мощность", "value": 3.0, "unit": "кВт"}
+{"gid": "demo-item-004", "attr_id": "attr_voltage", "attr_name": "Номинальное напряжение", "value": 380, "unit": "В"}
+{"gid": "demo-item-004", "attr_id": "attr_current", "attr_name": "Номинальный ток", "value": 6.5, "unit": "А"}
+{"gid": "demo-item-004", "attr_id": "attr_speed", "attr_name": "Частота вращения", "value": 950, "unit": "об/мин"}
+{"gid": "demo-item-004", "attr_id": "attr_efficiency", "attr_name": "КПД", "value": 87.0, "unit": "%"}
+{"gid": "demo-item-004", "attr_id": "attr_ip", "attr_name": "Степень защиты", "value": "IP54", "unit": null}
+{"gid": "demo-item-004", "attr_id": "attr_mounting", "attr_name": "Способ монтажа", "value": "на лапах", "unit": null}
+{"gid": "demo-item-004", "attr_id": "attr_insulation", "attr_name": "Класс изоляции", "value": "B", "unit": null}
+{"gid": "demo-item-004", "attr_id": "attr_weight", "attr_name": "Масса", "value": 32, "unit": "кг"}

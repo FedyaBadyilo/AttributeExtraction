@@ -1,0 +1,2264 @@
+{
+  "meta": {
+    "source": "measure units reference",
+    "sheet": "units"
+  },
+  "groups": {
+    "DSN0000212": {
+      "name_ru": "Абсолютная диэлектрическая проницаемость среды",
+      "name_en": "Absolute dielectric constant of the medium",
+      "units": [
+        {
+          "symbol_ru": "пФ/м"
+        },
+        {
+          "symbol_ru": "нФ/м"
+        },
+        {
+          "symbol_ru": "мкФ/м"
+        },
+        {
+          "symbol_ru": "Ф/м"
+        }
+      ]
+    },
+    "DSN0000213": {
+      "name_ru": "Активная мощность",
+      "name_en": "Active power",
+      "units": [
+        {
+          "symbol_ru": "мкВт"
+        },
+        {
+          "symbol_ru": "мВт"
+        },
+        {
+          "symbol_ru": "Вт"
+        },
+        {
+          "symbol_ru": "кВт"
+        },
+        {
+          "symbol_ru": "МВт"
+        },
+        {
+          "symbol_ru": "ГВт"
+        },
+        {
+          "symbol_ru": "ТВт"
+        }
+      ]
+    },
+    "DSN0000214": {
+      "name_ru": "Активность нуклида в радиоактивном источнике",
+      "name_en": "Nuclide activity in radioactive source",
+      "units": [
+        {
+          "symbol_ru": "Бк"
+        },
+        {
+          "symbol_ru": "кБк"
+        },
+        {
+          "symbol_ru": "МБк"
+        },
+        {
+          "symbol_ru": "ГБк"
+        },
+        {
+          "symbol_ru": "ТБк"
+        }
+      ]
+    },
+    "DSN0000215": {
+      "name_ru": "Атомная единица массы",
+      "name_en": "Atomic Mass Unit",
+      "units": [
+        {
+          "symbol_ru": "а.е.м."
+        }
+      ]
+    },
+    "DSN0000216": {
+      "name_ru": "Виброскорость",
+      "name_en": "Vibration speed",
+      "units": [
+        {
+          "symbol_ru": "мм/с"
+        }
+      ]
+    },
+    "DSN0000217": {
+      "name_ru": "Виброускорение",
+      "name_en": "Vibration acceleration",
+      "units": [
+        {
+          "symbol_ru": "мм/с²"
+        }
+      ]
+    },
+    "DSN0000218": {
+      "name_ru": "Водородный показатель",
+      "name_en": "Potential of hydrogen",
+      "units": [
+        {
+          "symbol_ru": "ед. pH"
+        }
+      ]
+    },
+    "DSN0000219": {
+      "name_ru": "Воздухонепроницаемость",
+      "name_en": "Air tight",
+      "units": [
+        {
+          "symbol_ru": "м³/(м²∙ч)"
+        }
+      ]
+    },
+    "DSN0000220": {
+      "name_ru": "Время",
+      "name_en": "Time",
+      "units": [
+        {
+          "symbol_ru": "нс"
+        },
+        {
+          "symbol_ru": "мкс"
+        },
+        {
+          "symbol_ru": "мс"
+        },
+        {
+          "symbol_ru": "с"
+        },
+        {
+          "symbol_ru": "мес"
+        },
+        {
+          "symbol_ru": "год"
+        },
+        {
+          "symbol_ru": "ч"
+        },
+        {
+          "symbol_ru": "мин"
+        },
+        {
+          "symbol_ru": "сут"
+        }
+      ]
+    },
+    "DSN0000221": {
+      "name_ru": "Глубина выгорания ядерного топлива",
+      "name_en": "Nuclear fuel burn-up",
+      "units": [
+        {
+          "symbol_ru": "МВт·сут/кг U"
+        }
+      ]
+    },
+    "DSN0000222": {
+      "name_ru": "Давление",
+      "name_en": "Pressure",
+      "units": [
+        {
+          "symbol_ru": "мПа"
+        },
+        {
+          "symbol_ru": "Па (изб)"
+        },
+        {
+          "symbol_ru": "Па"
+        },
+        {
+          "symbol_ru": "гПа"
+        },
+        {
+          "symbol_ru": "кПа"
+        },
+        {
+          "symbol_ru": "кПа (изб)"
+        },
+        {
+          "symbol_ru": "МПа (изб)"
+        },
+        {
+          "symbol_ru": "МПа"
+        }
+      ]
+    },
+    "DSN0000223": {
+      "name_ru": "Динамическая вязкость",
+      "name_en": "Dynamic viscosity",
+      "units": [
+        {
+          "symbol_ru": "мПа۰с"
+        },
+        {
+          "symbol_ru": "Па۰с"
+        },
+        {
+          "symbol_ru": "кПа۰с"
+        }
+      ]
+    },
+    "DSN0000225": {
+      "name_ru": "Длина волны",
+      "name_en": "Wavelength",
+      "units": [
+        {
+          "symbol_ru": "нм"
+        },
+        {
+          "symbol_ru": "мкм"
+        },
+        {
+          "symbol_ru": "мм"
+        },
+        {
+          "symbol_ru": "м"
+        }
+      ]
+    },
+    "DSN0000224": {
+      "name_ru": "Длина, ширина, высота, толщина, радиус, диаметр, расстояние, радиус кривизны",
+      "name_en": "Length, width, height, thickness, radius, diameter, distance, curvature raduis",
+      "units": [
+        {
+          "symbol_ru": "нм"
+        },
+        {
+          "symbol_ru": "мкм"
+        },
+        {
+          "symbol_ru": "мм"
+        },
+        {
+          "symbol_ru": "см"
+        },
+        {
+          "symbol_ru": "дюйм"
+        },
+        {
+          "symbol_ru": "дм"
+        },
+        {
+          "symbol_ru": "м"
+        },
+        {
+          "symbol_ru": "км"
+        }
+      ]
+    },
+    "DSN0000226": {
+      "name_ru": "Единица количества информации",
+      "name_en": "Data amount",
+      "units": [
+        {
+          "symbol_ru": "бит"
+        },
+        {
+          "symbol_ru": "Б"
+        },
+        {
+          "symbol_ru": "КБ"
+        },
+        {
+          "symbol_ru": "МБ"
+        },
+        {
+          "symbol_ru": "ГБ"
+        },
+        {
+          "symbol_ru": "ТБ"
+        }
+      ]
+    },
+    "DSN0000227": {
+      "name_ru": "Затухание сигнала",
+      "name_en": "Signal attenuation",
+      "units": [
+        {
+          "symbol_ru": "дБ/км"
+        },
+        {
+          "symbol_ru": "дБ/м"
+        }
+      ]
+    },
+    "DSN0000228": {
+      "name_ru": "Звуковое давление",
+      "name_en": "Acoustic pressure",
+      "units": [
+        {
+          "symbol_ru": "мПа"
+        },
+        {
+          "symbol_ru": "Па"
+        }
+      ]
+    },
+    "DSN0000229": {
+      "name_ru": "Импульс силы",
+      "name_en": "Momentum",
+      "units": [
+        {
+          "symbol_ru": "Н۰с"
+        }
+      ]
+    },
+    "DSN0000230": {
+      "name_ru": "Индуктивность, взаимная индуктивность",
+      "name_en": "Inductance, relative inductance",
+      "units": [
+        {
+          "symbol_ru": "мкГн"
+        },
+        {
+          "symbol_ru": "мГн"
+        },
+        {
+          "symbol_ru": "Гн"
+        },
+        {
+          "symbol_ru": "кГн"
+        }
+      ]
+    },
+    "DSN0000231": {
+      "name_ru": "Интенсивность",
+      "name_en": "Intensity",
+      "units": [
+        {
+          "symbol_ru": "1/год"
+        },
+        {
+          "symbol_ru": "1/мес"
+        },
+        {
+          "symbol_ru": "1/сут"
+        },
+        {
+          "symbol_ru": "1/ч"
+        },
+        {
+          "symbol_ru": "1/с"
+        },
+        {
+          "symbol_ru": "1/мин"
+        }
+      ]
+    },
+    "DSN0000232": {
+      "name_ru": "Интенсивность звука",
+      "name_en": "Acoustic intensity",
+      "units": [
+        {
+          "symbol_ru": "Вт/м²"
+        }
+      ]
+    },
+    "DSN0000233": {
+      "name_ru": "Интенсивность осадков",
+      "name_en": "Precipitation intensity",
+      "units": [
+        {
+          "symbol_ru": "л/(сут۰м²)"
+        }
+      ]
+    },
+    "DSN0000234": {
+      "name_ru": "Кавитационный запас",
+      "name_en": "Net positive suction head",
+      "units": [
+        {
+          "symbol_ru": "мм вод.ст."
+        },
+        {
+          "symbol_ru": "см вод.ст."
+        },
+        {
+          "symbol_ru": "м.вод.ст"
+        }
+      ]
+    },
+    "DSN0000235": {
+      "name_ru": "Кинематическая вязкость",
+      "name_en": "Kinematic viscosity",
+      "units": [
+        {
+          "symbol_ru": "мм²/с"
+        },
+        {
+          "symbol_ru": "см²/с"
+        },
+        {
+          "symbol_ru": "м²/с"
+        }
+      ]
+    },
+    "DSN0000236": {
+      "name_ru": "Кислотное число",
+      "name_en": "Acid value",
+      "units": [
+        {
+          "symbol_ru": "мг KOH на 1 г"
+        }
+      ]
+    },
+    "DSN0000237": {
+      "name_ru": "Количество",
+      "name_en": "Quantity",
+      "units": [
+        {
+          "symbol_ru": "шт."
+        },
+        {
+          "symbol_ru": "чел"
+        }
+      ]
+    },
+    "DSN0000238": {
+      "name_ru": "Количество вещества",
+      "name_en": "Substance amount",
+      "units": [
+        {
+          "symbol_ru": "моль"
+        },
+        {
+          "symbol_ru": "кмоль"
+        }
+      ]
+    },
+    "DSN0000239": {
+      "name_ru": "Концентрация на единицу объема",
+      "name_en": "Concentration per volume unit",
+      "units": [
+        {
+          "symbol_ru": "1/мл"
+        },
+        {
+          "symbol_ru": "1/м³"
+        },
+        {
+          "symbol_ru": "1/дм³"
+        }
+      ]
+    },
+    "DSN0000240": {
+      "name_ru": "Концентрация химических веществ",
+      "name_en": "Concentration of chemical substances",
+      "units": [
+        {
+          "symbol_ru": "г/м³"
+        },
+        {
+          "symbol_ru": "г/дм³"
+        },
+        {
+          "symbol_ru": "мг/м³"
+        },
+        {
+          "symbol_ru": "мг/дм³"
+        }
+      ]
+    },
+    "DSN0000241": {
+      "name_ru": "Коэффициент Джоуля-Томсона",
+      "name_en": "Joule-Thompson сoefficient",
+      "units": [
+        {
+          "symbol_ru": "К/Па"
+        },
+        {
+          "symbol_ru": "°C/Па"
+        }
+      ]
+    },
+    "DSN0000242": {
+      "name_ru": "Коэффициент теплового расширения",
+      "name_en": "Coefficient of thermal expansion",
+      "units": [
+        {
+          "symbol_ru": "°С¯¹"
+        },
+        {
+          "symbol_ru": "К¯¹"
+        }
+      ]
+    },
+    "DSN0000243": {
+      "name_ru": "Коэффициент теплопередачи",
+      "name_en": "Heat transfer coefficient",
+      "units": [
+        {
+          "symbol_ru": "Вт/(м²۰°С)"
+        },
+        {
+          "symbol_ru": "Вт/(м²۰К)"
+        },
+        {
+          "symbol_ru": "кВт/(м²۰К)"
+        },
+        {
+          "symbol_ru": "кВт/(м²۰°С)"
+        },
+        {
+          "symbol_ru": "Вт/(см²۰°С)"
+        },
+        {
+          "symbol_ru": "Вт/(см²۰К)"
+        },
+        {
+          "symbol_ru": "МВт/(м²۰°С)"
+        },
+        {
+          "symbol_ru": "МВт/(м²۰К)"
+        }
+      ]
+    },
+    "DSN0000244": {
+      "name_ru": "Коэффициент усиления (Коэффициент ослабления)",
+      "name_en": "Amplification factor (Attenuation factor)",
+      "units": [
+        {
+          "symbol_ru": "дБ"
+        }
+      ]
+    },
+    "DSN0000245": {
+      "name_ru": "Линейная плотность, масса на единицу длины",
+      "name_en": "",
+      "units": [
+        {
+          "symbol_ru": "мг/м"
+        },
+        {
+          "symbol_ru": "кг/м"
+        },
+        {
+          "symbol_ru": "кг/км"
+        },
+        {
+          "symbol_ru": "г/м"
+        },
+        {
+          "symbol_ru": "г/мм"
+        }
+      ]
+    },
+    "DSN0000246": {
+      "name_ru": "Линейная скорость",
+      "name_en": "Linear speed",
+      "units": [
+        {
+          "symbol_ru": "мм/год"
+        },
+        {
+          "symbol_ru": "мм/мин"
+        },
+        {
+          "symbol_ru": "см/мин"
+        },
+        {
+          "symbol_ru": "мм/с"
+        },
+        {
+          "symbol_ru": "см/с"
+        },
+        {
+          "symbol_ru": "м/мин"
+        },
+        {
+          "symbol_ru": "км/ч"
+        },
+        {
+          "symbol_ru": "м/с"
+        }
+      ]
+    },
+    "DSN0000247": {
+      "name_ru": "Магнитный поток, поток магнитной индукции",
+      "name_en": "Magnetic flux, magnetic induction flow",
+      "units": [
+        {
+          "symbol_ru": "мВб"
+        },
+        {
+          "symbol_ru": "Вб"
+        }
+      ]
+    },
+    "DSN0000248": {
+      "name_ru": "Масса",
+      "name_en": "Mass",
+      "units": [
+        {
+          "symbol_ru": "мкг"
+        },
+        {
+          "symbol_ru": "мг"
+        },
+        {
+          "symbol_ru": "кар"
+        },
+        {
+          "symbol_ru": "г"
+        },
+        {
+          "symbol_ru": "кг"
+        },
+        {
+          "symbol_ru": "т"
+        }
+      ]
+    },
+    "DSN0000249": {
+      "name_ru": "Массовая доля",
+      "name_en": "Mass fraction",
+      "units": [
+        {
+          "symbol_ru": "млрд¯¹ (масс.)"
+        },
+        {
+          "symbol_ru": "млн¯¹ (масс.)"
+        },
+        {
+          "symbol_ru": "‰ (масс.)"
+        },
+        {
+          "symbol_ru": "% (масс.)"
+        }
+      ]
+    },
+    "DSN0000250": {
+      "name_ru": "Массовый коэффициент поглощения энергии",
+      "name_en": "Mass energy absorption coefficient",
+      "units": [
+        {
+          "symbol_ru": "см²/г"
+        },
+        {
+          "symbol_ru": "м²/кг"
+        }
+      ]
+    },
+    "DSN0000251": {
+      "name_ru": "Массовый расход жидкости или газа",
+      "name_en": "Mass flow rate of liquid or gas",
+      "units": [
+        {
+          "symbol_ru": "кг/год"
+        },
+        {
+          "symbol_ru": "кг/сут"
+        },
+        {
+          "symbol_ru": "г/мин"
+        },
+        {
+          "symbol_ru": "т/год"
+        },
+        {
+          "symbol_ru": "кг/ч"
+        },
+        {
+          "symbol_ru": "т/сут"
+        },
+        {
+          "symbol_ru": "кг/мин"
+        },
+        {
+          "symbol_ru": "т/ч"
+        },
+        {
+          "symbol_ru": "кг/с"
+        },
+        {
+          "symbol_ru": "т/мин"
+        }
+      ]
+    },
+    "DSN0000358": {
+      "name_ru": "Массовый расход на единицу энергии",
+      "name_en": "Mass flow rate per unit of energy",
+      "units": [
+        {
+          "symbol_ru": "г/кВт·ч"
+        }
+      ]
+    },
+    "DSN0000252": {
+      "name_ru": "Модуль упругости",
+      "name_en": "Elastic modulus",
+      "units": [
+        {
+          "symbol_ru": "Па"
+        }
+      ]
+    },
+    "DSN0000253": {
+      "name_ru": "Мольная доля",
+      "name_en": "Molar fraction",
+      "units": [
+        {
+          "symbol_ru": "млрд¯¹ (моль)"
+        },
+        {
+          "symbol_ru": "млн¯¹ (моль)"
+        },
+        {
+          "symbol_ru": "‰ (моль)"
+        },
+        {
+          "symbol_ru": "% (моль)"
+        }
+      ]
+    },
+    "DSN0000254": {
+      "name_ru": "Молярная концентрация",
+      "name_en": "Molar concentration",
+      "units": [
+        {
+          "symbol_ru": "моль/м³"
+        },
+        {
+          "symbol_ru": "моль/дм³"
+        }
+      ]
+    },
+    "DSN0000255": {
+      "name_ru": "Молярная масса",
+      "name_en": "Molar mass",
+      "units": [
+        {
+          "symbol_ru": "г/кмоль"
+        },
+        {
+          "symbol_ru": "мг/моль"
+        },
+        {
+          "symbol_ru": "г/моль"
+        },
+        {
+          "symbol_ru": "кг/кмоль"
+        },
+        {
+          "symbol_ru": "кг/моль"
+        }
+      ]
+    },
+    "DSN0000256": {
+      "name_ru": "Молярная энтропия",
+      "name_en": "Molar entropy",
+      "units": [
+        {
+          "symbol_ru": "Дж/(кмоль·К)"
+        },
+        {
+          "symbol_ru": "Дж/(кмоль·°С)"
+        },
+        {
+          "symbol_ru": "кДж/(кмоль·К)"
+        },
+        {
+          "symbol_ru": "кДж/(кмоль·°С)"
+        },
+        {
+          "symbol_ru": "Дж/(моль·°С)"
+        },
+        {
+          "symbol_ru": "Дж/(моль·К)"
+        }
+      ]
+    },
+    "DSN0000257": {
+      "name_ru": "Молярный объём",
+      "name_en": "Molar volume",
+      "units": [
+        {
+          "symbol_ru": "дм³/кмоль"
+        },
+        {
+          "symbol_ru": "л/моль"
+        },
+        {
+          "symbol_ru": "м³/кмоль"
+        },
+        {
+          "symbol_ru": "м³/моль"
+        }
+      ]
+    },
+    "DSN0000258": {
+      "name_ru": "Момент инерции",
+      "name_en": "Mass moment of inertia",
+      "units": [
+        {
+          "symbol_ru": "г·мм²"
+        },
+        {
+          "symbol_ru": "г·см²"
+        },
+        {
+          "symbol_ru": "кг·м²"
+        }
+      ]
+    },
+    "DSN0000259": {
+      "name_ru": "Момент силы",
+      "name_en": "Torque",
+      "units": [
+        {
+          "symbol_ru": "Н۰м"
+        },
+        {
+          "symbol_ru": "кН۰м"
+        },
+        {
+          "symbol_ru": "МН۰м"
+        }
+      ]
+    },
+    "DSN0000260": {
+      "name_ru": "Мощность",
+      "name_en": "Power",
+      "units": [
+        {
+          "symbol_ru": "мкВт"
+        },
+        {
+          "symbol_ru": "мВт"
+        },
+        {
+          "symbol_ru": "Вт"
+        },
+        {
+          "symbol_ru": "кВт"
+        },
+        {
+          "symbol_ru": "МВт"
+        },
+        {
+          "symbol_ru": "ГВт"
+        },
+        {
+          "symbol_ru": "л.с."
+        }
+      ]
+    },
+    "DSN0000261": {
+      "name_ru": "Мощность поглощенной дозы ионизирующего излучения",
+      "name_en": "Power of adsorbed ionizing radiation dose",
+      "units": [
+        {
+          "symbol_ru": "Гр/мин"
+        },
+        {
+          "symbol_ru": "Гр/ч"
+        },
+        {
+          "symbol_ru": "Гр/с"
+        }
+      ]
+    },
+    "DSN0000262": {
+      "name_ru": "Мощность эквивалента дозы ионизирующего излучения",
+      "name_en": "Equivalent ionizing radiation dose rate",
+      "units": [
+        {
+          "symbol_ru": "мкЗв/ч"
+        },
+        {
+          "symbol_ru": "мЗв/ч"
+        },
+        {
+          "symbol_ru": "мкЗв/с"
+        },
+        {
+          "symbol_ru": "Зв/ч"
+        }
+      ]
+    },
+    "DSN0000263": {
+      "name_ru": "Мутность",
+      "name_en": "Turbidity",
+      "units": [
+        {
+          "symbol_ru": "мг/л (по каолину)"
+        },
+        {
+          "symbol_ru": "ЕМФ"
+        }
+      ]
+    },
+    "DSN0000264": {
+      "name_ru": "Напор",
+      "name_en": "Flow",
+      "units": [
+        {
+          "symbol_ru": "мм вод.ст."
+        },
+        {
+          "symbol_ru": "см вод.ст."
+        },
+        {
+          "symbol_ru": "м вод.ст."
+        }
+      ]
+    },
+    "DSN0000265": {
+      "name_ru": "Напряженность магнитного поля",
+      "name_en": "Magnetic field strength",
+      "units": [
+        {
+          "symbol_ru": "А/м"
+        },
+        {
+          "symbol_ru": "А/см"
+        },
+        {
+          "symbol_ru": "кА/м"
+        },
+        {
+          "symbol_ru": "А/мм"
+        }
+      ]
+    },
+    "DSN0000266": {
+      "name_ru": "Напряженность электрического поля",
+      "name_en": "Electric field strength",
+      "units": [
+        {
+          "symbol_ru": "В/м"
+        },
+        {
+          "symbol_ru": "В/см"
+        },
+        {
+          "symbol_ru": "кВ/м"
+        },
+        {
+          "symbol_ru": "МВ/м"
+        }
+      ]
+    },
+    "DSN0000353": {
+      "name_ru": "Нормальная концентрация",
+      "name_en": "",
+      "units": [
+        {
+          "symbol_ru": "мг-экв/дм³"
+        },
+        {
+          "symbol_ru": "моль-экв/м³"
+        },
+        {
+          "symbol_ru": "г-экв/дм³"
+        },
+        {
+          "symbol_ru": "г-экв/м³"
+        },
+        {
+          "symbol_ru": "мкг-экв/м³"
+        },
+        {
+          "symbol_ru": "моль-экв/дм³"
+        },
+        {
+          "symbol_ru": "мг-экв/м³"
+        },
+        {
+          "symbol_ru": "мкг-экв/дм³"
+        }
+      ]
+    },
+    "DSN0000267": {
+      "name_ru": "Нормальное напряжение, касательное напряжение",
+      "name_en": "Normal stress, shear stress",
+      "units": [
+        {
+          "symbol_ru": "мПа"
+        },
+        {
+          "symbol_ru": "Па"
+        },
+        {
+          "symbol_ru": "гПа"
+        },
+        {
+          "symbol_ru": "кПа"
+        },
+        {
+          "symbol_ru": "МПа"
+        }
+      ]
+    },
+    "DSN0000270": {
+      "name_ru": "Объемная доля",
+      "name_en": "Volume fraction",
+      "units": [
+        {
+          "symbol_ru": "млрд¯¹ (об.)"
+        },
+        {
+          "symbol_ru": "млн¯¹ (об.)"
+        },
+        {
+          "symbol_ru": "‰ (об.)"
+        },
+        {
+          "symbol_ru": "% (об.)"
+        }
+      ]
+    },
+    "DSN0000268": {
+      "name_ru": "Объём, вместимость",
+      "name_en": "Volume, capacity",
+      "units": [
+        {
+          "symbol_ru": "мм³"
+        },
+        {
+          "symbol_ru": "см³"
+        },
+        {
+          "symbol_ru": "дм³"
+        },
+        {
+          "symbol_ru": "л"
+        },
+        {
+          "symbol_ru": "м³"
+        },
+        {
+          "symbol_ru": "км³"
+        }
+      ]
+    },
+    "DSN0000269": {
+      "name_ru": "Объёмная активность источника",
+      "name_en": "Volume intensity of the source",
+      "units": [
+        {
+          "symbol_ru": "Бк/м³"
+        },
+        {
+          "symbol_ru": "Бк/дм³"
+        },
+        {
+          "symbol_ru": "Бк/см³"
+        },
+        {
+          "symbol_ru": "кБк/см³"
+        }
+      ]
+    },
+    "DSN0000271": {
+      "name_ru": "Объёмный расход жидкости или газа",
+      "name_en": "Volume flow of liquid or gas",
+      "units": [
+        {
+          "symbol_ru": "дм³/сут"
+        },
+        {
+          "symbol_ru": "см³/мин"
+        },
+        {
+          "symbol_ru": "м³/г"
+        },
+        {
+          "symbol_ru": "дм³/ч"
+        },
+        {
+          "symbol_ru": "л/ч"
+        },
+        {
+          "symbol_ru": "см³/с"
+        },
+        {
+          "symbol_ru": "м³/сут"
+        },
+        {
+          "symbol_ru": "дм³/мин"
+        },
+        {
+          "symbol_ru": "л/мин"
+        },
+        {
+          "symbol_ru": "Нм³/ч"
+        },
+        {
+          "symbol_ru": "м³/ч"
+        },
+        {
+          "symbol_ru": "л/с"
+        },
+        {
+          "symbol_ru": "дм³/с"
+        },
+        {
+          "symbol_ru": "м³/мин"
+        },
+        {
+          "symbol_ru": "м³/с"
+        }
+      ]
+    },
+    "DSN0000272": {
+      "name_ru": "Освещенность",
+      "name_en": "Illuminance",
+      "units": [
+        {
+          "symbol_ru": "лк"
+        }
+      ]
+    },
+    "DSN0000273": {
+      "name_ru": "Относительная высота",
+      "name_en": "Relative height",
+      "units": [
+        {
+          "symbol_ru": "м Bf"
+        }
+      ]
+    },
+    "DSN0000274": {
+      "name_ru": "Период полураспада радионуклида",
+      "name_en": "Half-life of radionuclide",
+      "units": [
+        {
+          "symbol_ru": "с"
+        },
+        {
+          "symbol_ru": "год"
+        },
+        {
+          "symbol_ru": "ч"
+        },
+        {
+          "symbol_ru": "мин"
+        },
+        {
+          "symbol_ru": "сут"
+        }
+      ]
+    },
+    "DSN0000275": {
+      "name_ru": "Пиковое ускорение грунта (PGA)",
+      "name_en": "Peak ground acceleration (PGA)",
+      "units": [
+        {
+          "symbol_ru": "g"
+        }
+      ]
+    },
+    "DSN0000276": {
+      "name_ru": "Плоский угол",
+      "name_en": "Plane angle",
+      "units": [
+        {
+          "symbol_ru": "...″"
+        },
+        {
+          "symbol_ru": "…′"
+        },
+        {
+          "symbol_ru": "град"
+        },
+        {
+          "symbol_ru": "...⁰"
+        },
+        {
+          "symbol_ru": "рад"
+        }
+      ]
+    },
+    "DSN0000277": {
+      "name_ru": "Плотность (плотность массы)",
+      "name_en": "Density (mass density)",
+      "units": [
+        {
+          "symbol_ru": "мг/м³"
+        },
+        {
+          "symbol_ru": "г/м³"
+        },
+        {
+          "symbol_ru": "мг/см³"
+        },
+        {
+          "symbol_ru": "кг/м³"
+        },
+        {
+          "symbol_ru": "г/дм³"
+        },
+        {
+          "symbol_ru": "г/см³"
+        },
+        {
+          "symbol_ru": "т/м³"
+        },
+        {
+          "symbol_ru": "кг/см³"
+        }
+      ]
+    },
+    "DSN0000278": {
+      "name_ru": "Плотность магнитного потока",
+      "name_en": "Heat, heat amount",
+      "units": [
+        {
+          "symbol_ru": "Тл"
+        }
+      ]
+    },
+    "DSN0000279": {
+      "name_ru": "Плотность потока частиц",
+      "name_en": "Particle flux density",
+      "units": [
+        {
+          "symbol_ru": "с¯¹۰м¯²"
+        },
+        {
+          "symbol_ru": "с¯¹۰см¯²"
+        },
+        {
+          "symbol_ru": "мин¯¹۰см¯²"
+        }
+      ]
+    },
+    "DSN0000280": {
+      "name_ru": "Плотность электрического тока",
+      "name_en": "Electrical flux density",
+      "units": [
+        {
+          "symbol_ru": "А/м²"
+        },
+        {
+          "symbol_ru": "кА/м²"
+        },
+        {
+          "symbol_ru": "А/см²"
+        },
+        {
+          "symbol_ru": "А/мм²"
+        }
+      ]
+    },
+    "DSN0000281": {
+      "name_ru": "Плотность электромагнитной энергии",
+      "name_en": "Electromagnetic energy density",
+      "units": [
+        {
+          "symbol_ru": "Дж/м³"
+        },
+        {
+          "symbol_ru": "кДж/м³"
+        },
+        {
+          "symbol_ru": "МДж/м³"
+        }
+      ]
+    },
+    "DSN0000282": {
+      "name_ru": "Площадь",
+      "name_en": "Square",
+      "units": [
+        {
+          "symbol_ru": "мм²"
+        },
+        {
+          "symbol_ru": "см²"
+        },
+        {
+          "symbol_ru": "дм²"
+        },
+        {
+          "symbol_ru": "м²"
+        },
+        {
+          "symbol_ru": "га"
+        },
+        {
+          "symbol_ru": "км²"
+        }
+      ]
+    },
+    "DSN0000283": {
+      "name_ru": "Поверхностная активность источника",
+      "name_en": "Surface activity of the source",
+      "units": [
+        {
+          "symbol_ru": "Бк/м²"
+        },
+        {
+          "symbol_ru": "Бк/см²"
+        },
+        {
+          "symbol_ru": "кБк/см²"
+        }
+      ]
+    },
+    "DSN0000356": {
+      "name_ru": "Поверхностная плотность",
+      "name_en": "",
+      "units": [
+        {
+          "symbol_ru": "г/м²"
+        },
+        {
+          "symbol_ru": "мг/см²"
+        },
+        {
+          "symbol_ru": "кг/м²"
+        },
+        {
+          "symbol_ru": "г/см²"
+        },
+        {
+          "symbol_ru": "г/мм²"
+        }
+      ]
+    },
+    "DSN0000284": {
+      "name_ru": "Поверхностная плотность теплового потока",
+      "name_en": "Irradiance",
+      "units": [
+        {
+          "symbol_ru": "Вт/м²"
+        },
+        {
+          "symbol_ru": "кВт/м²"
+        }
+      ]
+    },
+    "DSN0000285": {
+      "name_ru": "Поверхностное натяжение",
+      "name_en": "Surface tension",
+      "units": [
+        {
+          "symbol_ru": "мН/м"
+        },
+        {
+          "symbol_ru": "Н/м"
+        },
+        {
+          "symbol_ru": "кН/мм"
+        }
+      ]
+    },
+    "DSN0000286": {
+      "name_ru": "Поглощенная доза ионизирующего излучения",
+      "name_en": "Adsorbed dose of ionizing radiation",
+      "units": [
+        {
+          "symbol_ru": "мГр"
+        },
+        {
+          "symbol_ru": "Гр"
+        },
+        {
+          "symbol_ru": "кГр"
+        },
+        {
+          "symbol_ru": "МГр"
+        }
+      ]
+    },
+    "DSN0000287": {
+      "name_ru": "Полная мощность",
+      "name_en": "Rated apparent power",
+      "units": [
+        {
+          "symbol_ru": "В۰Α"
+        },
+        {
+          "symbol_ru": "кВ۰Α"
+        },
+        {
+          "symbol_ru": "МВ۰Α"
+        }
+      ]
+    },
+    "DSN0000288": {
+      "name_ru": "Поток частиц",
+      "name_en": "Particle flux",
+      "units": [
+        {
+          "symbol_ru": "мин¯¹"
+        },
+        {
+          "symbol_ru": "с¯¹"
+        }
+      ]
+    },
+    "DSN0000289": {
+      "name_ru": "Потребление топлива",
+      "name_en": "Fuel consumption",
+      "units": [
+        {
+          "symbol_ru": "г/кВт·ч"
+        }
+      ]
+    },
+    "DSN0000290": {
+      "name_ru": "Потребление топлива транспортных средств",
+      "name_en": "The fuel consumption of vehicles",
+      "units": [
+        {
+          "symbol_ru": "л/км"
+        }
+      ]
+    },
+    "DSN0000350": {
+      "name_ru": "Пропускная способность по персоналу",
+      "name_en": "",
+      "units": [
+        {
+          "symbol_ru": "чел/сут"
+        },
+        {
+          "symbol_ru": "чел/ч"
+        },
+        {
+          "symbol_ru": "чел/мин"
+        }
+      ]
+    },
+    "DSN0000291": {
+      "name_ru": "Размер растрового изображения",
+      "name_en": "The size of the bitmap",
+      "units": [
+        {
+          "symbol_ru": "пиксель"
+        },
+        {
+          "symbol_ru": "мегапиксель"
+        }
+      ]
+    },
+    "DSN0000292": {
+      "name_ru": "Разность фаз, фазовый сдвиг, угол сдвига фаз",
+      "name_en": "Phase difference, phase variance, phase shift angle",
+      "units": [
+        {
+          "symbol_ru": "...⁰"
+        },
+        {
+          "symbol_ru": "рад"
+        }
+      ]
+    },
+    "DSN0000293": {
+      "name_ru": "Разрешающая способность аналоговая",
+      "name_en": "Analog resolution",
+      "units": [
+        {
+          "symbol_ru": "твл"
+        }
+      ]
+    },
+    "DSN0000294": {
+      "name_ru": "Разрешающая способность цифровая",
+      "name_en": "Digital resolution",
+      "units": [
+        {
+          "symbol_ru": "dpi"
+        }
+      ]
+    },
+    "DSN0000295": {
+      "name_ru": "Реактивная мощность",
+      "name_en": "Reactive power",
+      "units": [
+        {
+          "symbol_ru": "вар"
+        },
+        {
+          "symbol_ru": "квар"
+        },
+        {
+          "symbol_ru": "Мвар"
+        }
+      ]
+    },
+    "DSN0000296": {
+      "name_ru": "Световой поток",
+      "name_en": "Luminous flux",
+      "units": [
+        {
+          "symbol_ru": "лм"
+        }
+      ]
+    },
+    "DSN0000297": {
+      "name_ru": "Сечения ядерных реакций",
+      "name_en": "Cross sectional area of nuclear reactions",
+      "units": [
+        {
+          "symbol_ru": "барн"
+        }
+      ]
+    },
+    "DSN0000298": {
+      "name_ru": "Сила света",
+      "name_en": "Luminous intensity",
+      "units": [
+        {
+          "symbol_ru": "кд"
+        }
+      ]
+    },
+    "DSN0000299": {
+      "name_ru": "Сила, вес",
+      "name_en": "Force, weight",
+      "units": [
+        {
+          "symbol_ru": "мН"
+        },
+        {
+          "symbol_ru": "кгс"
+        },
+        {
+          "symbol_ru": "Н"
+        },
+        {
+          "symbol_ru": "кН"
+        },
+        {
+          "symbol_ru": "МН"
+        }
+      ]
+    },
+    "DSN0000300": {
+      "name_ru": "Скорость звука",
+      "name_en": "Acoustic velocity",
+      "units": [
+        {
+          "symbol_ru": "м/с"
+        }
+      ]
+    },
+    "DSN0000346": {
+      "name_ru": "Скорость изменения температуры",
+      "name_en": "",
+      "units": [
+        {
+          "symbol_ru": "°C/мин"
+        }
+      ]
+    },
+    "DSN0000301": {
+      "name_ru": "Скорость передачи информации",
+      "name_en": "Data-transfer rate",
+      "units": [
+        {
+          "symbol_ru": "бит/c"
+        },
+        {
+          "symbol_ru": "кбит/c"
+        },
+        {
+          "symbol_ru": "Мбит/c"
+        },
+        {
+          "symbol_ru": "Гбит/c"
+        },
+        {
+          "symbol_ru": "Тбит/c"
+        }
+      ]
+    },
+    "DSN0000302": {
+      "name_ru": "Соотношение",
+      "name_en": "Ratio",
+      "units": [
+        {
+          "symbol_ru": "о.е."
+        },
+        {
+          "symbol_ru": "%"
+        }
+      ]
+    },
+    "DSN0000303": {
+      "name_ru": "Стойкость к окислению",
+      "name_en": "Oxidation stability",
+      "units": [
+        {
+          "symbol_ru": "г/м³"
+        }
+      ]
+    },
+    "DSN0000304": {
+      "name_ru": "Температура Цельсия",
+      "name_en": "Temperature Celsius",
+      "units": [
+        {
+          "symbol_ru": "⁰C"
+        }
+      ]
+    },
+    "DSN0000305": {
+      "name_ru": "Тепловой поток",
+      "name_en": "Heat flux",
+      "units": [
+        {
+          "symbol_ru": "Вт"
+        },
+        {
+          "symbol_ru": "кВт"
+        }
+      ]
+    },
+    "DSN0000306": {
+      "name_ru": "Тепловой эффект химической реакции",
+      "name_en": "Heat of reaction",
+      "units": [
+        {
+          "symbol_ru": "Дж/моль"
+        },
+        {
+          "symbol_ru": "кДж/моль"
+        }
+      ]
+    },
+    "DSN0000308": {
+      "name_ru": "Теплопроводность",
+      "name_en": "Heat conductivity",
+      "units": [
+        {
+          "symbol_ru": "Вт/(м·°С)"
+        },
+        {
+          "symbol_ru": "Вт/(м۰К)"
+        },
+        {
+          "symbol_ru": "кВт/(м·К)"
+        },
+        {
+          "symbol_ru": "кВт/(м·°С)"
+        }
+      ]
+    },
+    "DSN0000309": {
+      "name_ru": "Теплота сгорания (на единицу массы)",
+      "name_en": "Heat of combustion (per unit mass)",
+      "units": [
+        {
+          "symbol_ru": "кДж/кг"
+        }
+      ]
+    },
+    "DSN0000310": {
+      "name_ru": "Теплота сгорания (на единицу объема)",
+      "name_en": "Heat of combustion (per unit of volume)",
+      "units": [
+        {
+          "symbol_ru": "кДж/м³"
+        }
+      ]
+    },
+    "DSN0000311": {
+      "name_ru": "Теплота, количество теплоты",
+      "name_en": "Heat, heat amount",
+      "units": [
+        {
+          "symbol_ru": "мДж"
+        },
+        {
+          "symbol_ru": "Дж"
+        },
+        {
+          "symbol_ru": "кДж"
+        },
+        {
+          "symbol_ru": "МДж"
+        }
+      ]
+    },
+    "DSN0000307": {
+      "name_ru": "Теплоёмкость",
+      "name_en": "Heat capacity",
+      "units": [
+        {
+          "symbol_ru": "Дж/К"
+        },
+        {
+          "symbol_ru": "Дж/°С"
+        },
+        {
+          "symbol_ru": "кДж/°С"
+        },
+        {
+          "symbol_ru": "кДж/К"
+        }
+      ]
+    },
+    "DSN0000312": {
+      "name_ru": "Термодинамическая температура",
+      "name_en": "Thermodynamic temperature",
+      "units": [
+        {
+          "symbol_ru": "К"
+        }
+      ]
+    },
+    "DSN0000313": {
+      "name_ru": "Трудозатраты",
+      "name_en": "Labor costs",
+      "units": [
+        {
+          "symbol_ru": "человеко-час"
+        },
+        {
+          "symbol_ru": "человеко-месяц"
+        },
+        {
+          "symbol_ru": "человеко-день"
+        }
+      ]
+    },
+    "DSN0000314": {
+      "name_ru": "Угловая скорость",
+      "name_en": "Angular velocity",
+      "units": [
+        {
+          "symbol_ru": "рад/ч"
+        },
+        {
+          "symbol_ru": "рад/мин"
+        },
+        {
+          "symbol_ru": "рад/с"
+        }
+      ]
+    },
+    "DSN0000315": {
+      "name_ru": "Удельная активность источника",
+      "name_en": "Specific activity of the source",
+      "units": [
+        {
+          "symbol_ru": "Бк/кг"
+        },
+        {
+          "symbol_ru": "Бк/г"
+        },
+        {
+          "symbol_ru": "кБк/г"
+        }
+      ]
+    },
+    "DSN0000316": {
+      "name_ru": "Удельная пожарная нагрузка",
+      "name_en": "Specific fire load",
+      "units": [
+        {
+          "symbol_ru": "Дж/м²"
+        },
+        {
+          "symbol_ru": "кДж/м²"
+        },
+        {
+          "symbol_ru": "МДж/м²"
+        }
+      ]
+    },
+    "DSN0000317": {
+      "name_ru": "Удельная теплоёмкость",
+      "name_en": "Specific heat capacity",
+      "units": [
+        {
+          "symbol_ru": "Дж/(кг·°C)"
+        },
+        {
+          "symbol_ru": "Дж/(кг۰К)"
+        },
+        {
+          "symbol_ru": "кДж/(кг·°C)"
+        },
+        {
+          "symbol_ru": "кДж/(кг۰К)"
+        }
+      ]
+    },
+    "DSN0000318": {
+      "name_ru": "Удельная электрическая проводимость",
+      "name_en": "Specific electric conductivity",
+      "units": [
+        {
+          "symbol_ru": "мкСм/см"
+        },
+        {
+          "symbol_ru": "мСм/см"
+        },
+        {
+          "symbol_ru": "См/м"
+        },
+        {
+          "symbol_ru": "См/см"
+        },
+        {
+          "symbol_ru": "кСм/м"
+        },
+        {
+          "symbol_ru": "МСм/м"
+        }
+      ]
+    },
+    "DSN0000319": {
+      "name_ru": "Удельная энтальпия",
+      "name_en": "Specific enthalpy",
+      "units": [
+        {
+          "symbol_ru": "Дж/кг"
+        },
+        {
+          "symbol_ru": "Дж/г"
+        },
+        {
+          "symbol_ru": "кДж/кг"
+        },
+        {
+          "symbol_ru": "МДж/кг"
+        }
+      ]
+    },
+    "DSN0000357": {
+      "name_ru": "Удельная эффективная длина пути утечки",
+      "name_en": "",
+      "units": [
+        {
+          "symbol_ru": "см/кВ"
+        }
+      ]
+    },
+    "DSN0000320": {
+      "name_ru": "Удельное количество теплоты",
+      "name_en": "Specific heat amount",
+      "units": [
+        {
+          "symbol_ru": "Дж/кг"
+        },
+        {
+          "symbol_ru": "кДж/кг"
+        },
+        {
+          "symbol_ru": "МДж/кг"
+        }
+      ]
+    },
+    "DSN0000321": {
+      "name_ru": "Удельное электрическое сопротивление",
+      "name_en": "Specific electrical resistance",
+      "units": [
+        {
+          "symbol_ru": "Ом۰см"
+        },
+        {
+          "symbol_ru": "Ом۰м"
+        },
+        {
+          "symbol_ru": "кОм۰м"
+        },
+        {
+          "symbol_ru": "МОм۰м"
+        }
+      ]
+    },
+    "DSN0000348": {
+      "name_ru": "Удельный массовый расход жидкости или газа",
+      "name_en": "Specific mass flow rate of liquid or gas",
+      "units": [
+        {
+          "symbol_ru": "кг/т"
+        }
+      ]
+    },
+    "DSN0000349": {
+      "name_ru": "Удельный объемный расход жидкости или газа",
+      "name_en": "Specific volume flow of liquid or gas",
+      "units": [
+        {
+          "symbol_ru": "м³/(ч·кг)"
+        }
+      ]
+    },
+    "DSN0000322": {
+      "name_ru": "Удельный объём",
+      "name_en": "Specific volume",
+      "units": [
+        {
+          "symbol_ru": "дм³/кг"
+        },
+        {
+          "symbol_ru": "дм³/г"
+        },
+        {
+          "symbol_ru": "м³/кг"
+        }
+      ]
+    },
+    "DSN0000347": {
+      "name_ru": "Удельный расход электроэнергии",
+      "name_en": "",
+      "units": [
+        {
+          "symbol_ru": "кВт·ч/кг"
+        }
+      ]
+    },
+    "DSN0000323": {
+      "name_ru": "Уклон",
+      "name_en": "Slope",
+      "units": [
+        {
+          "symbol_ru": "мм/м"
+        },
+        {
+          "symbol_ru": "см/м"
+        },
+        {
+          "symbol_ru": "м/м"
+        }
+      ]
+    },
+    "DSN0000324": {
+      "name_ru": "Ускорение",
+      "name_en": "Acceleration",
+      "units": [
+        {
+          "symbol_ru": "см/с²"
+        },
+        {
+          "symbol_ru": "м/с²"
+        }
+      ]
+    },
+    "DSN0000325": {
+      "name_ru": "Цветность",
+      "name_en": "Chromacity",
+      "units": [
+        {
+          "symbol_ru": "градус"
+        }
+      ]
+    },
+    "DSN0000326": {
+      "name_ru": "Частота атмосферных явлений (на единицу площади)",
+      "name_en": "Frequency of atmospheric phenomena (per unit area)",
+      "units": [
+        {
+          "symbol_ru": "1/(км²۰год)"
+        }
+      ]
+    },
+    "DSN0000327": {
+      "name_ru": "Частота вращения",
+      "name_en": "Rotation frequency",
+      "units": [
+        {
+          "symbol_ru": "об/сут"
+        },
+        {
+          "symbol_ru": "об/ч"
+        },
+        {
+          "symbol_ru": "об/мин"
+        },
+        {
+          "symbol_ru": "об/c"
+        },
+        {
+          "symbol_ru": "с¯¹"
+        }
+      ]
+    },
+    "DSN0000328": {
+      "name_ru": "Частота периодического процесса",
+      "name_en": "Frequency of periodic process",
+      "units": [
+        {
+          "symbol_ru": "Гц"
+        },
+        {
+          "symbol_ru": "кГц"
+        },
+        {
+          "symbol_ru": "МГц"
+        },
+        {
+          "symbol_ru": "ГГц"
+        }
+      ]
+    },
+    "DSN0000329": {
+      "name_ru": "Эквивалентная доза ионизирующего излучения, эффективная доза ионизирующего излучения",
+      "name_en": "Equivalent ionizing radiation dose, effective ionizing radiation dose",
+      "units": [
+        {
+          "symbol_ru": "мкЗв"
+        },
+        {
+          "symbol_ru": "мЗв"
+        },
+        {
+          "symbol_ru": "Зв"
+        }
+      ]
+    },
+    "DSN0000330": {
+      "name_ru": "Эквивалентный уровень звукового давления, эквивалентный уровень звука",
+      "name_en": "Equivalent sound pressure level, equivalent acoustic power level",
+      "units": [
+        {
+          "symbol_ru": "дБ"
+        }
+      ]
+    },
+    "DSN0000332": {
+      "name_ru": "Электрическая проводимость",
+      "name_en": "Electrical conductivity",
+      "units": [
+        {
+          "symbol_ru": "нСм"
+        },
+        {
+          "symbol_ru": "мкСм"
+        },
+        {
+          "symbol_ru": "мСм"
+        },
+        {
+          "symbol_ru": "См"
+        },
+        {
+          "symbol_ru": "кСм"
+        }
+      ]
+    },
+    "DSN0000331": {
+      "name_ru": "Электрическая ёмкость",
+      "name_en": "Electrical capacity",
+      "units": [
+        {
+          "symbol_ru": "пФ"
+        },
+        {
+          "symbol_ru": "нФ"
+        },
+        {
+          "symbol_ru": "мкФ"
+        },
+        {
+          "symbol_ru": "мФ"
+        },
+        {
+          "symbol_ru": "Ф"
+        }
+      ]
+    },
+    "DSN0000333": {
+      "name_ru": "Электрический дипольный момент",
+      "name_en": "Dipole moment",
+      "units": [
+        {
+          "symbol_ru": "Кл·м"
+        }
+      ]
+    },
+    "DSN0000334": {
+      "name_ru": "Электрический заряд (количество электричества)",
+      "name_en": "Electric charge (amount of electricity)",
+      "units": [
+        {
+          "symbol_ru": "мкКл"
+        },
+        {
+          "symbol_ru": "Кл"
+        },
+        {
+          "symbol_ru": "кКл"
+        },
+        {
+          "symbol_ru": "А۰ч"
+        },
+        {
+          "symbol_ru": "кА۰ч"
+        }
+      ]
+    },
+    "DSN0000335": {
+      "name_ru": "Электрический ток",
+      "name_en": "Electric current",
+      "units": [
+        {
+          "symbol_ru": "мкА"
+        },
+        {
+          "symbol_ru": "мА"
+        },
+        {
+          "symbol_ru": "А"
+        },
+        {
+          "symbol_ru": "кА"
+        }
+      ]
+    },
+    "DSN0000336": {
+      "name_ru": "Электрическое напряжение, электрический потенциал, разность электрических потенциалов",
+      "name_en": "Voltage, electrical potential, electrical potential difference",
+      "units": [
+        {
+          "symbol_ru": "мкВ"
+        },
+        {
+          "symbol_ru": "мВ"
+        },
+        {
+          "symbol_ru": "В"
+        },
+        {
+          "symbol_ru": "кВ"
+        },
+        {
+          "symbol_ru": "МВ"
+        }
+      ]
+    },
+    "DSN0000337": {
+      "name_ru": "Электрическое сопротивление",
+      "name_en": "Electrical resistance",
+      "units": [
+        {
+          "symbol_ru": "мкОм"
+        },
+        {
+          "symbol_ru": "мОм"
+        },
+        {
+          "symbol_ru": "Ом"
+        },
+        {
+          "symbol_ru": "кОм"
+        },
+        {
+          "symbol_ru": "МОм"
+        },
+        {
+          "symbol_ru": "ГОм"
+        }
+      ]
+    },
+    "DSN0000352": {
+      "name_ru": "Энергетическая эффективность",
+      "name_en": "",
+      "units": [
+        {
+          "symbol_ru": "кг/МВт"
+        },
+        {
+          "symbol_ru": "кг/Вт"
+        },
+        {
+          "symbol_ru": "т/МВт"
+        },
+        {
+          "symbol_ru": "т/кВт"
+        },
+        {
+          "symbol_ru": "кг/кВт"
+        },
+        {
+          "symbol_ru": "т/Вт"
+        }
+      ]
+    },
+    "DSN0000338": {
+      "name_ru": "Энергетическая яркость",
+      "name_en": "Radiance",
+      "units": [
+        {
+          "symbol_ru": "Вт/(ср۰м²)"
+        }
+      ]
+    },
+    "DSN0000339": {
+      "name_ru": "Энергия",
+      "name_en": "Energy",
+      "units": [
+        {
+          "symbol_ru": "Дж"
+        },
+        {
+          "symbol_ru": "кДж"
+        },
+        {
+          "symbol_ru": "МДж"
+        }
+      ]
+    },
+    "DSN0000340": {
+      "name_ru": "Энергия элементарных частиц",
+      "name_en": "Energy of elementary particles",
+      "units": [
+        {
+          "symbol_ru": "эВ"
+        },
+        {
+          "symbol_ru": "кэВ"
+        },
+        {
+          "symbol_ru": "МэВ"
+        }
+      ]
+    },
+    "DSN0000341": {
+      "name_ru": "Энергия, работа",
+      "name_en": "Energy, work",
+      "units": [
+        {
+          "symbol_ru": "Дж"
+        },
+        {
+          "symbol_ru": "Вт·c"
+        },
+        {
+          "symbol_ru": "кДж"
+        },
+        {
+          "symbol_ru": "МДж"
+        },
+        {
+          "symbol_ru": "ГДж"
+        },
+        {
+          "symbol_ru": "Вт·ч"
+        },
+        {
+          "symbol_ru": "кВт·ч"
+        }
+      ]
+    },
+    "DSN0000342": {
+      "name_ru": "Энтальпия",
+      "name_en": "Enthalpy",
+      "units": [
+        {
+          "symbol_ru": "Дж"
+        }
+      ]
+    },
+    "DSN0000343": {
+      "name_ru": "Яркость",
+      "name_en": "Luminance",
+      "units": [
+        {
+          "symbol_ru": "кд/м²"
+        }
+      ]
+    }
+  }
+}

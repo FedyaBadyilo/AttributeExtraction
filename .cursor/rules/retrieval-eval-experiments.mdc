@@ -1,0 +1,25 @@
+---
+description: Format for retrieval eval experiment notes (R00x markdown in experiments/)
+globs: research/steps/retrieval/eval/experiments/*.md
+alwaysApply: false
+---
+
+# Retrieval eval experiment notes
+
+Each `R00x-*.md` file has **two parts only**: hypothesis (before runs) and metrics (after runs). No third sections, no workflow state.
+
+## 1. Гипотеза
+
+- One general hypothesis — what changes vs [R001](research/steps/retrieval/eval/experiments/R001-dense-bge-baseline.md) and why it might help.
+- Sub-variants **A, B, C, …** are a small formatting detail, not the story. One table: ID, `text_dense` pattern, short note, example. No narrative per letter, no outcomes, no "current code is B".
+- **R001 is the baseline** — never label variant A as baseline or duplicate R001 metrics as row A.
+
+## 2. Метрики
+
+- One table, filled incrementally after MLflow runs: ID, run name/id, git commit, scalars.
+- Do not add "Выводы", "next steps", or placeholders like "заполнить после прогонов".
+
+## Do not put in the file
+
+- Intermediate implementation status ("текущий код", "уже прогнано", регресс/улучшение в гипотезе).
+- Per-variant postmortems — those belong in chat, commits, or MLflow, not in the experiment note until you add a dedicated conclusions pass (not part of the default template).

@@ -1,0 +1,161 @@
+{
+  "demo-motor": [
+    {
+      "attr_id": "attr_name",
+      "attr_name": "Наименование",
+      "attr_type": "string",
+      "descr": "Наименование изделия",
+      "req_data": null,
+      "req_attr": null,
+      "is_main": true,
+      "units": null,
+      "allowed_values": null,
+      "for_extraction": true,
+      "exclusion_reason": null
+    },
+    {
+      "attr_id": "attr_power",
+      "attr_name": "Номинальная мощность",
+      "attr_type": "number",
+      "descr": null,
+      "req_data": null,
+      "req_attr": null,
+      "is_main": null,
+      "units": [
+        "кВт"
+      ],
+      "allowed_values": null,
+      "for_extraction": true,
+      "exclusion_reason": null
+    },
+    {
+      "attr_id": "attr_voltage",
+      "attr_name": "Номинальное напряжение",
+      "attr_type": "number",
+      "descr": null,
+      "req_data": null,
+      "req_attr": null,
+      "is_main": null,
+      "units": [
+        "В"
+      ],
+      "allowed_values": null,
+      "for_extraction": true,
+      "exclusion_reason": null
+    },
+    {
+      "attr_id": "attr_current",
+      "attr_name": "Номинальный ток",
+      "attr_type": "number",
+      "descr": null,
+      "req_data": null,
+      "req_attr": null,
+      "is_main": null,
+      "units": [
+        "А"
+      ],
+      "allowed_values": null,
+      "for_extraction": true,
+      "exclusion_reason": null
+    },
+    {
+      "attr_id": "attr_speed",
+      "attr_name": "Частота вращения",
+      "attr_type": "number",
+      "descr": null,
+      "req_data": null,
+      "req_attr": null,
+      "is_main": null,
+      "units": [
+        "об/мин",
+        "мин⁻¹"
+      ],
+      "allowed_values": null,
+      "for_extraction": true,
+      "exclusion_reason": null
+    },
+    {
+      "attr_id": "attr_efficiency",
+      "attr_name": "КПД",
+      "attr_type": "number",
+      "descr": null,
+      "req_data": null,
+      "req_attr": null,
+      "is_main": null,
+      "units": [
+        "%"
+      ],
+      "allowed_values": null,
+      "for_extraction": true,
+      "exclusion_reason": null
+    },
+    {
+      "attr_id": "attr_ip",
+      "attr_name": "Степень защиты",
+      "attr_type": "enum",
+      "descr": null,
+      "req_data": null,
+      "req_attr": null,
+      "is_main": null,
+      "units": null,
+      "allowed_values": [
+        "IP20",
+        "IP40",
+        "IP54",
+        "IP55",
+        "IP65"
+      ],
+      "for_extraction": true,
+      "exclusion_reason": null
+    },
+    {
+      "attr_id": "attr_mounting",
+      "attr_name": "Способ монтажа",
+      "attr_type": "enum",
+      "descr": null,
+      "req_data": null,
+      "req_attr": null,
+      "is_main": null,
+      "units": null,
+      "allowed_values": [
+        "на лапах",
+        "фланцевый",
+        "комбинированный"
+      ],
+      "for_extraction": true,
+      "exclusion_reason": null
+    },
+    {
+      "attr_id": "attr_insulation",
+      "attr_name": "Класс изоляции",
+      "attr_type": "enum",
+      "descr": null,
+      "req_data": null,
+      "req_attr": null,
+      "is_main": null,
+      "units": null,
+      "allowed_values": [
+        "B",
+        "F",
+        "H"
+      ],
+      "for_extraction": true,
+      "exclusion_reason": null
+    },
+    {
+      "attr_id": "attr_weight",
+      "attr_name": "Масса",
+      "attr_type": "number",
+      "descr": null,
+      "req_data": null,
+      "req_attr": null,
+      "is_main": null,
+      "units": [
+        "кг"
+      ],
+      "allowed_values": null,
+      "for_extraction": true,
+      "exclusion_reason": null
+    }
+  ]
+}

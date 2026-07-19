@@ -1,0 +1,37 @@
+---
+description: Code discipline for hypothesis-specific work under research/ — Pydantic contracts, fail-fast, module boundaries in steps, datasets build, and lab code.
+globs: research/**
+alwaysApply: false
+---
+
+# Research code standards
+
+## Data contracts
+
+Use Pydantic models for structured data.
+
+Do not introduce dataclasses, ad-hoc dict schemas, custom validation layers, or TypedDict-based contracts unless explicitly requested.
+
+After `model_validate` or model construction, trust the schema. Use direct field access; do not re-validate what Pydantic already enforced:
+
+- no `.get()` on required fields (only on raw dict/JSON **before** validation, or truly optional keys);
+- no `isinstance` / type checks on fields the model already typed;
+- no `if x is not None` / `if x else` branches for required fields or constraints already expressed in the model. Use such checks only for genuinely optional fields or external/raw data before validation.
+
+Invalid data should fail at validation time, not be silently handled downstream.
+
+## Error handling
+
+Fail fast. Do not add broad `except Exception`, bare `except`, silent skipping of malformed records, fallbacks for impossible schema states, or try/except that only logs and continues.
+
+## Architecture budget
+
+Before adding a new class, abstraction layer, dependency, config format, persistence format, top-level directory, or async/background mechanism — justify it explicitly.
+
+Default: simple function + Pydantic model + explicit artifact.
+
+## Separation of responsibilities
+
+Do not mix in one function or module: artifact I/O, validation, LLM prompting, retrieval/search, metrics, orchestration, CLI glue.
+
+Prefer focused modules (`models.py`, `prompts.py`, `runner.py`, etc.). When editing existing code, preserve the local style of that step.

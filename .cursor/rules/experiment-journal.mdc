@@ -1,0 +1,94 @@
+---
+description: Minimal invariant rules for experiment interpretation journals. Apply whenever experiment journal files are created, edited, read, or used as context.
+globs: research/steps/**/eval/experiments/*.md
+alwaysApply: false
+---
+
+# Experiment Journal Rule
+
+## Purpose
+
+Experiment journals are **flexible markdown reports** for interpreting research experiments.
+
+Use them to capture why an experiment was run, what was expected, what was observed, and what to do next — not to duplicate machine-readable run records.
+
+## Language
+
+- Пишите журнал **на русском языке** — весь смысловой текст внутри секций.
+- Заголовки секций из шаблона ниже оставляйте **как есть** (английские якоря структуры).
+- Технические идентификаторы не переводите: `MLflow` run ID, имена метрик, пути к артефактам, имена шагов и модулей.
+
+## Required structure
+
+Every experiment journal must keep this **fixed top-level structure**:
+
+```markdown
+# E00X - <experiment name>
+
+## 1. Approach
+
+## 2. Expected effect / hypothesis
+
+## 3. Runs and metrics
+
+## 4. Interpretation
+
+## 5. Error analysis
+
+## 6. Conclusion
+
+## 7. Decision
+```
+
+| Rule | Detail |
+|------|--------|
+| Section headings | **Fixed** — keep all seven sections in order |
+| Section content | **Flexible** — prose, lists, links, small tables as needed |
+
+### Section intent (content is still free-form)
+
+- **1. Approach** — what was measured or changed
+- **2. Expected effect / hypothesis** — what should improve or break, and why
+- **3. Runs and metrics** — pointers to runs and headline numbers
+- **4. Interpretation** — what the numbers mean in context
+- **5. Error analysis** — task-specific failure patterns
+- **6. Conclusion** — short summary of observed outcome
+- **7. Decision** — next step: adopt, iterate, or stop
+
+## Invariants
+
+### What belongs in the journal
+
+- Explain the **experiment idea**, **expected effect**, **observed result**, **interpretation**, and **decision**.
+- Reference **MLflow run IDs** only in **3. Runs and metrics** (or where runs are discussed).
+- Keep **error analysis** free-form and task-specific — no fixed taxonomy.
+
+### What stays out of the journal
+
+- **Run-level facts** belong in **MLflow** or **eval artifacts**, not in a rigid journal header.
+- Do **not** duplicate the full MLflow metrics table by default.
+- Do **not** force universal tables, fixed parameter schemas, fixed decision labels, or a fixed error taxonomy.
+
+### Research interpretation level
+
+Keep the journal at the research interpretation level. Use repository files, functions, commands, and artifact names only as necessary anchors; do not turn the journal into a repo walkthrough, runbook, debug guide, or eval implementation description.
+
+### Baseline vs non-baseline
+
+| Experiment type | Approach section |
+|-----------------|------------------|
+| **Baseline** | May describe the measured pipeline more fully |
+| **Non-baseline** | Should focus on the **meaningful change** only |
+
+### Scope: keep experiment-local labels local
+
+> Experiment journals are the **only** place for experiment-local naming.
+
+**Keep inside journals only:**
+
+- `E00X` IDs, journal file names
+- Approach A/B, variant labels, experiment-specific decisions
+
+**Do not leak into** step README files, architecture docs, code comments, or stable pipeline documentation — unless the user explicitly asks for an experiment audit trail.
+
+When using a journal as context for **non-experiment files**, translate findings into **neutral technical wording** instead of copying experiment-local labels.

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Извлечение атрибутов</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css?v=20260719h" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="brand__mark" aria-hidden="true"></div>
+          <div>
+            <div class="brand__title">НСИ</div>
+            <div class="brand__subtitle">Эксперт</div>
+          </div>
+        </div>
+        <nav class="nav" aria-label="Разделы">
+          <div class="nav__section">Работа</div>
+          <button type="button" class="nav__item is-active" id="nav-cards" data-nav="cards">
+            Карточки МТР
+          </button>
+          <button type="button" class="nav__item is-muted" disabled title="В полной системе">
+            Справочник классов
+          </button>
+          <button type="button" class="nav__item is-muted" disabled title="В полной системе">
+            Отчёты
+          </button>
+        </nav>
+        <div class="sidebar__footer user-card">
+          <div class="user-card__avatar" aria-hidden="true">ИС</div>
+          <div class="user-card__meta">
+            <div class="user-card__name">И. С. Соколова</div>
+            <div class="user-card__role">Эксперт по атрибутам</div>
+          </div>
+        </div>
+      </aside>
+
+      <main class="app-main" id="app-main"></main>
+    </div>
+
+    <div class="toast" id="toast" hidden role="status" aria-live="polite"></div>
+    <script src="./pdf-data.js?v=20260719h"></script>
+    <script src="./app.js?v=20260719h"></script>
+  </body>
+</html>

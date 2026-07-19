@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Ассистент ТЗ">
+  <rect width="64" height="64" rx="14" fill="#182233"/>
+  <path d="M20 13h19l9 9v29H20z" fill="#ffffff"/>
+  <path d="M39 13v10h9z" fill="#d9e1ea"/>
+  <rect x="26" y="29" width="22" height="5" rx="2.5" fill="#2454d6"/>
+  <rect x="26" y="39" width="13" height="5" rx="2.5" fill="#9aa8bc"/>
+  <circle cx="19" cy="32" r="4" fill="#2454d6"/>
+  <path d="M13 32h6" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

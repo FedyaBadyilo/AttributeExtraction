@@ -1,0 +1,47 @@
+services:
+  backend:
+    build:
+      context: ../..
+      dockerfile: apps/attribute_extractor/backend/Dockerfile
+      args:
+        # 0 = API/UI (upload/validate). 1 = also install root requirements.txt for /process.
+        INSTALL_PIPELINE: ${INSTALL_PIPELINE:-0}
+    container_name: attribute-extractor-backend
+    environment:
+      BACKEND_HOST: 0.0.0.0
+      BACKEND_PORT: 8000
+      BACKEND_CACHE_DIR: backend/.cache
+      BACKEND_SQLITE_PATH: backend/.cache/backend.sqlite3
+    env_file:
+      - path: ../../.env
+        required: false
+      - path: .env
+        required: false
+    ports:
+      - "8000:8000"
+    volumes:
+      - backend_cache:/app/apps/attribute_extractor/backend/.cache
+    working_dir: /app/apps/attribute_extractor
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 15s
+      timeout: 5s
+      retries: 10
+
+  frontend:
+    build:
+      context: ../..
+      dockerfile: apps/attribute_extractor/frontend/Dockerfile
+      args:
+        VITE_API_BASE_URL: ${FRONTEND_VITE_API_BASE_URL:-/api}
+    container_name: attribute-extractor-frontend
+    environment:
+      API_UPSTREAM: ${FRONTEND_API_UPSTREAM:-http://backend:8000/}
+    ports:
+      - "${FRONTEND_PORT:-5173}:80"
+    depends_on:
+      backend:
+        condition: service_healthy
+
+volumes:
+  backend_cache:

@@ -1,0 +1,117 @@
+---
+description: Apply when adding or changing tests for a research step — domain logic, Pydantic contracts, eval adapter, or regression cases under research/steps/.
+globs: research/steps/**
+alwaysApply: false
+---
+
+# Rule: Step tests
+
+## Purpose
+
+Step tests protect the reproducibility and stability of research pipeline steps without turning the repository into a production QA project.
+
+Tests are not coverage-driven. They are required where they protect meaningful business logic, step contracts, evaluation logic, or regression cases found during solo/batch/debug runs.
+
+## Default location
+
+Step-specific tests must live inside the step directory:
+
+```text
+research/steps/<step_name>/tests/
+```
+
+Optional fixtures for that step:
+
+```text
+research/steps/<step_name>/tests/fixtures/
+```
+
+## How to run
+
+From the repository root (with `pytest` available in the environment):
+
+```bash
+pytest research/steps/<step_name>/tests
+```
+
+Run all step tests:
+
+```bash
+pytest research/steps
+```
+
+Import step code under test as a normal package, for example:
+
+```python
+from research.steps.<step_name>.domain import ...
+```
+
+## What to test
+
+Required for stabilized step logic:
+
+- unit tests for non-trivial deterministic domain/business functions;
+- contract tests for step input/output Pydantic models and artifact shapes;
+- regression tests for bugs found during debug runs when practical;
+- adapter tests for evaluation logic when the step has `eval/adapter.py`.
+
+Good candidates for tests:
+
+- normalization and parsing logic;
+- chunk/group/merge/scoring logic;
+- metric calculations;
+- prediction labels and error record construction;
+- Pydantic validation boundaries;
+- artifact loading followed by step-owned model validation.
+
+Usually do not test:
+
+- trivial wrappers;
+- simple pass-through functions;
+- external library behavior;
+- one-line helpers with no domain meaning.
+
+## Test levels
+
+Use a small practical test pyramid:
+
+1. Unit tests for deterministic business logic.
+2. Contract tests for schemas, models, and artifact shape compatibility.
+3. Minimal smoke/integration tests only when useful, using small fixtures and no real external services.
+
+Every test under `research/steps/<step_name>/tests/` must be deterministic and offline:
+
+- no real LLM calls;
+- no real OCR calls;
+- no required Qdrant service;
+- no large customer documents or real sensitive artifacts.
+
+Use small synthetic fixtures committed to Git.
+
+Do not add slow, flaky, or environment-dependent checks to the step test suite. If something truly needs a live service or heavy run, keep it out of `tests/` (for example a one-off script under `run/` or `lab/`) rather than stretching the default `pytest` run.
+
+## Lifecycle
+
+Do not enforce strict TDD for research steps.
+
+Recommended lifecycle:
+
+```text
+plan step behavior and validation expectations
+→ implement or stabilize domain logic
+→ add unit and contract tests for stable logic
+→ run debug examples
+→ add regression tests for discovered bugs
+→ run step tests before considering the step stabilized
+```
+
+A step is not considered stabilized until its important deterministic logic and contracts are covered by tests.
+
+## Agent rules
+
+When modifying a step:
+
+- inspect `research/steps/<step_name>/tests/` if it exists;
+- add or update tests near the step when changing business logic, contracts, or eval behavior;
+- prefer small focused fixtures over copying real pipeline outputs;
+- keep tests aligned with the research pipeline style: fail fast, explicit contracts, minimal abstractions.

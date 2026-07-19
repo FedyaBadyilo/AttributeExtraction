@@ -1,0 +1,113 @@
+---
+description: Apply when creating, moving, or reorganizing files/directories; adding research steps; adding notebooks/scripts; adding eval code; adding dataset preparation code; or adding shared infrastructure.
+---
+
+# Repository Layout
+
+This rule defines where files belong. Keep the repository root clean and avoid creating new top-level folders unless the task explicitly changes the repository architecture.
+
+## Top-level zones
+
+Use these stable top-level zones:
+
+```text
+infra/        # reusable infrastructure shared across hypotheses
+research/     # hypothesis-specific research workflow
+apps/         # user-facing or demo applications (when implemented)
+docs/         # stable documentation, concepts, architecture notes, decisions
+config.yaml   # repository root; loaded via infra/config/
+```
+
+## `infra/`
+
+`infra/` contains reusable infrastructure that can be reused across hypotheses.
+
+Typical contents:
+
+```text
+infra/
+  config/              # loads root config.yaml + .env
+  research_eval/       # reusable evaluation runner, adapter base, CLI helpers
+  llm/                 # generic LLM clients and factories
+  llm_observability/   # Langfuse or similar LLM tracing integrations
+  files/               # generic file checks, JSON I/O, path helpers
+```
+
+## `research/`
+
+`research/` contains everything specific to the current hypothesis.
+
+Expected structure:
+
+```text
+research/
+  benchmarks/
+  datasets/
+  lab/
+  steps/
+```
+
+## `research/benchmarks/`
+
+Benchmark pipelines that **run step logic on an external dataset** — often across
+several steps — and score the resulting predictions. This is the main boundary
+vs `research/steps/<step_name>/eval/`: step eval usually takes predictions from
+that step's `output/` (or `--source`) and scores them against ground truth
+without re-running the step on a dedicated benchmark dataset; a benchmark owns
+the dataset adapter, (re)runs the workflow under test, and materializes pred
+artifacts before scoring.
+
+A benchmark owns its dataset adapter, run artifacts, scoring contract, eval
+wiring, and offline tests. Benchmark-specific conversion of intermediate step
+outputs belongs here. Generic MLflow orchestration remains in
+`infra/research_eval/`, while production logic remains in `research/steps/`.
+
+## `research/datasets/`
+
+Dataset preparation and small processed artifacts. Overview for humans: `research/datasets/README.md`.
+
+Placement rule: `build/` only makes raw customer inputs usable for research. Reusable document processing (OCR, chunking, retrieval, extraction) belongs in `research/steps/<step_name>/domain/`.
+
+## `research/lab/`
+
+Exploratory notebooks and one-off scripts. Overview for humans: `research/lab/README.md`.
+
+Code from `research/lab/` must not be imported by steps, apps, or eval code.
+
+## `research/steps/`
+
+Each step is a local research workspace.
+
+Preferred layout:
+
+```text
+research/steps/<step_name>/
+  README.md
+  domain/
+  run/
+  eval/
+  tests/
+  input/
+  output/
+```
+
+Responsibilities:
+
+- `domain/` — clean step logic that should stay independent of debug runs and eval orchestration.
+- `run/` — local debug/research entrypoints and file-system orchestration.
+- `eval/` — step-specific evaluation; usually scores existing predictions from
+  `output/` without re-running the step on a separate benchmark dataset (see
+  `research/benchmarks/`).
+- `tests/` — step-local pytest suite.
+- `input/` — optional step-local stubs or templates.
+- `output/` — local debug artifacts.
+
+Do not use `src/` inside steps. Keep `run/` separate from `domain/`.
+
+Evaluation boundary: the step adapter validates outputs through step-owned models before computing metrics. `infra/research_eval/` must not know domain schemas, ground-truth formats, or raw step artifact formats. Contract, wiring templates, CLI, and MLflow behavior: `infra/research_eval/README.md`.
+
+## `apps/`
+
+User-facing or demo applications. Overview for humans: `apps/README.md`. Subdirs such as `backend/`, `frontend/`, or `labeling/` appear when needed; `apps/README.md` alone is fine until then.
+
+Application code may call step `domain/` logic, but must not depend on debug-only `run/` modules or local `output/` artifacts.

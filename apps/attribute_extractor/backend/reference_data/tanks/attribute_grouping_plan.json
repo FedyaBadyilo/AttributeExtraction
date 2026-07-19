@@ -1,0 +1,509 @@
+{
+  "semantic_groups": [
+    {
+      "attribute_ids": [
+        "MTR_REC_Protege_list0003",
+        "REC_Protege_Atmosphere_type_to_GOST_15150-69_Reference",
+        "REC_Protege_Atmosphere_type_to_GOST_15150-69_Transportation"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "Att-0000001538",
+        "OLPP_Attr0008"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "Att-0000001570",
+        "REC_Protege_safety_class_OPB8897_Reference",
+        "REC_Protege_safety_class_OPB8897_subclass_Reference"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "Att-0000000892",
+        "REC_Protege_ov0001"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "Att-0000000319",
+        "REC_Protege_Technical_document_for_production"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_The_name_of_the_document_with_task_for_development_and_production_of_sample",
+        "REC_Protege_str2126"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_Operating_time_between_failures",
+        "REC_Protege_Operating_time_to_failure"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_tem0064",
+        "REC_Protege_tem0339"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "Att-0000000763",
+        "Att-0000000765"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "Att-0000001210",
+        "REC_Protege_str0280"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "Att-0000001544",
+        "Att-0000001547"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_Overall_height",
+        "REC_Protege_Overall_length",
+        "REC_Protege_Overall_width"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_per0027",
+        "REC_Protege_per0029"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_tem0012",
+        "REC_Protege_tem0026"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_tem0108",
+        "REC_Protege_tem0109"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "Att-0000000812",
+        "Att-0000000813"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "Att-0000001580",
+        "Att-0000001582"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_kiv0006",
+        "REC_Protege_kiv0009"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_pre0117",
+        "REC_Protege_pre0148",
+        "REC_Protege_pre0160"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_tem0044",
+        "REC_Protege_tem0340"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_str0270",
+        "REC_Protege_str0310"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_pre0046",
+        "REC_Protege_pre0163"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_acr0016"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_flo0010"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_pov0052"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_pre0033"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_pre0109"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_tem0063"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_tem0152"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_vol0058"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_volu0036"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_wei0023"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_str0402",
+        "REC_Protege_str0929",
+        "REC_Protege_str1406",
+        "REC_Protege_str1435"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "Att-0000001682",
+        "REC_Protege_cou0505",
+        "REC_Protege_rof0010",
+        "REC_Protege_wei0162"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_rof0013",
+        "REC_Protege_str0217"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "Att-0000000810",
+        "Att-0000000811",
+        "REC_Protege_Transportation_conditions_Reference",
+        "REC_Protege_climatic_class_Reference",
+        "REC_Protege_placement_category_Reference"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "Att-0000000536",
+        "Att-0000001540",
+        "REC_Protege_tim0365",
+        "REC_Protege_tim0368",
+        "REC_Protege_tim0379"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "Att-0000000063"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "Att-0000001563"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_are0009"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_dim2417"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_pov0028"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "Att-0000001661",
+        "Att-0000001662"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_Assigned_useful_lifetime",
+        "REC_Protege_Storability_time",
+        "REC_Protege_ov0002",
+        "REC_Protege_tim0371"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "Att-0000001673",
+        "REC_Protege_list0722",
+        "REC_Protege_str2156"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_str1436",
+        "REC_Protege_vas0032"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_list0845",
+        "REC_Protege_tim0236"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "OLPP_Attr0007"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_Storage_conditions_Reference"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_cou0675"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_dim0097"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_group_document"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_list1151"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_list2308"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_list2313"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_pov0023"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_seismic_category_Reference"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_str0711"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_str2052"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "Att-0000000789",
+        "Att-0000001519",
+        "Att-0000001578",
+        "Att-0000001579",
+        "REC_Protege_vas0114"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_dim0346",
+        "REC_Protege_dim0347"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "Att-0000001654",
+        "Att-0000001734",
+        "REC_Protege_fre0007"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_safety_class_document",
+        "REC_Protege_seismic_category_document"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_General_weight",
+        "REC_Protege_volu0012"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "Att-0000000729"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "Att-0000000739"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "MTR_REC_Protege_str0028"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_Included_items"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_Service_period"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_equipment_group_PNAEG_7-008-89_Reference"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_list2306"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_ov0010"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_str0070"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_str0509"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_tem0198"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_list2305",
+        "REC_Protege_pre0400",
+        "REC_Protege_pre0461"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_dim0297",
+        "REC_Protege_dim0299",
+        "REC_Protege_dim2030",
+        "REC_Protege_dim2031"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_dim2028",
+        "REC_Protege_dim2029"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_developer_organization_Reference",
+        "REC_Protege_producer_organization_Reference",
+        "REC_Protege_supplier_organization_Reference"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_list1582",
+        "REC_Protege_list2309",
+        "REC_Protege_list2310"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_ov0013",
+        "REC_Protege_ov0027",
+        "Rec_Protege_nsi_object"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "Att-0000001522"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_Maintainability_products_Reference"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_list2307"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_mad0004"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_str2170"
+      ]
+    },
+    {
+      "attribute_ids": [
+        "REC_Protege_str2174"
+      ]
+    }
+  ]
+}

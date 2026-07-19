@@ -1,0 +1,61 @@
+---
+description: Apply when creating or editing Jupyter notebooks under research/lab/ — cell structure, markdown sections, one conclusion per cell.
+globs: research/lab/**/*.ipynb
+alwaysApply: false
+---
+
+# Rule: Lab notebooks
+
+## One cell = one logical zone = one conclusion
+
+Each **code cell** must answer exactly one analytical question and end with **one** primary artifact:
+
+- a table (`display(df)`),
+- a statistic block,
+- a chart,
+- or a short fixed set of examples.
+
+Do **not** pack setup, several analyses, and examples into the same code cell.
+
+| Zone | Cell type | Content |
+|------|-----------|---------|
+| Context | markdown | What we test, definitions, dependencies on prior sections |
+| Infrastructure | code | imports, helpers, constants — no corpus stats or plots |
+| Result | code | single computation → single `display(...)` outcome |
+
+## Markdown hierarchy
+
+Use markdown cells for structure; avoid `display(Markdown("### …"))` inside code when a markdown cell suffices.
+
+```text
+## N. Major topic
+### N.1 Subtopic
+### N.2 Subtopic
+```
+
+- `##` — major notebook section (new hypothesis or pipeline stage).
+- `###` — subsection within that section.
+- Bold lead-ins inside markdown (`**Вопрос:**`, `**Вывод:**`) for micro-context, not new `##` levels.
+
+## Dependencies
+
+If a section needs variables from an earlier section, state it in the opening markdown cell (`требует §11.3`).
+
+Prefer reusing helpers defined upstream over duplicating logic; do not silently redefine core functions in later sections.
+
+## Examples
+
+```python
+# BAD — three conclusions in one cell
+display(stats_a)
+display(stats_b)
+for h in hints:
+    display(top_tokens[h])
+```
+
+```python
+# GOOD — cell 12.2: only morph_class distribution
+display(
+    morph_summary.assign(share=lambda s: s["occurrences"] / s["occurrences"].sum()).round(4)
+)
+```

@@ -1,0 +1,4 @@
+# App-only overrides on top of repository root config.yaml (via infra.config).
+# Do not duplicate MODELS / EMBEDDINGS / step params here.
+
+BACKEND_QDRANT_COLLECTION_TEMPLATE: "AttributeExtractor-{task_id}-{tz_id}"

@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "class_code": "demo-motor",
+  "description": "Synthetic demo registry for JMLC-05 / mock-app seed",
+  "rows": [
+    {
+      "eos_id": "demo-item-001",
+      "pdf_filename": "TU-DEMO-001.pdf",
+      "file_priority": 0,
+      "variant_execution_id": null,
+      "class_code": "demo-motor"
+    },
+    {
+      "eos_id": "demo-item-002",
+      "pdf_filename": "TU-DEMO-002.pdf",
+      "file_priority": 0,
+      "variant_execution_id": "Исп. B",
+      "class_code": "demo-motor"
+    },
+    {
+      "eos_id": "demo-item-003",
+      "pdf_filename": "TU-DEMO-003.pdf",
+      "file_priority": 0,
+      "variant_execution_id": null,
+      "class_code": "demo-motor"
+    },
+    {
+      "eos_id": "demo-item-003",
+      "pdf_filename": "PASSPORT-DEMO-003.pdf",
+      "file_priority": 1,
+      "variant_execution_id": null,
+      "class_code": "demo-motor"
+    },
+    {
+      "eos_id": "demo-item-004",
+      "pdf_filename": "SCAN-DEMO-004.pdf",
+      "file_priority": 0,
+      "variant_execution_id": null,
+      "class_code": "demo-motor"
+    }
+  ]
+}

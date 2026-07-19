@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "cases": [
+    {
+      "case_id": "demo-tu-p001",
+      "data_source": "synthetic",
+      "doc_type": "tu_tz",
+      "technical_tags": [
+        "born_digital_good"
+      ],
+      "purpose": "Born-digital страница ТУ клапана: читаемый text layer, таблица номинальных параметров (DN/PN/Pраб/T) и материалов корпуса. Базовый контроль, что парсер не ломает структуру «параметр → значение» на чистом PDF.",
+      "source": {
+        "path": "research/datasets/ocr_benchmark/fixtures/TU-DEMO-001.pdf",
+        "page_ranges": [
+          {
+            "start": 1,
+            "end": 1
+          }
+        ]
+      },
+      "transformations": [],
+      "input": {
+        "path": "research/datasets/ocr_benchmark/fixtures/demo-tu-p001.pdf",
+        "sha256": "ae532abd39e1c032a5f2692ae6cee3922258c081b55a6c0e3e9a36c9ac3d3669"
+      },
+      "reference_path": "research/datasets/ocr_benchmark/markdown_reference/demo-tu-p001.md"
+    },
+    {
+      "case_id": "demo-tu-scan-p001",
+      "data_source": "synthetic",
+      "doc_type": "tu_tz",
+      "technical_tags": [
+        "image_only_scan",
+        "dense_table"
+      ],
+      "purpose": "Image-only «скан» страницы приёмки: плотная таблица испытаний без text layer, шум и лёгкий перекос. Проверяем, вытягивает ли OCR строки «испытание / норма / результат» так же, как с born-digital ТУ.",
+      "source": {
+        "path": "research/datasets/ocr_benchmark/fixtures/TU-DEMO-001.pdf",
+        "page_ranges": [
+          {
+            "start": 2,
+            "end": 2
+          }
+        ]
+      },
+      "transformations": [
+        {
+          "op": "render_scan",
+          "dpi": 300,
+          "color_mode": "grayscale"
+        }
+      ],
+      "input": {
+        "path": "research/datasets/ocr_benchmark/fixtures/demo-tu-scan-p001.pdf",
+        "sha256": "66c013d4f8e6bd3f4abe93383d518ca06437a9fdc54033661dcec61afae3848d"
+      },
+      "reference_path": "research/datasets/ocr_benchmark/markdown_reference/demo-tu-scan-p001.md"
+    }
+  ]
+}
